@@ -79,7 +79,7 @@ git clone git://github.com/tpope/vim-sensible.git
 
 ## Command-T
 echo "Installing Ctrl-P"
-git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+git clone https://github.com/kien/ctrlp.vim.git ctrlp.vim
 echo "set runtimepath^=~/.vim/bundle/ctrlp.vim" >> ~/.vimrc
 vim +Helptags ~/.vim/bundle/ctrlp.vim/doc
 
