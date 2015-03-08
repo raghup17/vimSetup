@@ -218,6 +218,11 @@ let b:match_words=
   \ '\<case\>\|\<casex\>\|\<casez\>:\<endcase\>,' .
   \ '\<fork\>:\<join\>\|\<join_any\>\|\<join_none\>,' .
 endif
+
 DELIM
 
-
+echo "Install NERDTREE"
+cd ~/.vim/bundle && git clone https://github.com/scrooloose/nerdtree.git
+cat  >> ~/.vimrc << DELIM
+nmap <leader>n :NERDTreeToggle<CR>
+DELIM
